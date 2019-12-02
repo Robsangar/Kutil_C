@@ -4,6 +4,7 @@
 #include "teil.h"
 #include "utility.h"
 
+// spast
 teil* newTeil(char typ[], char bez[], char einheit[], char gewicht[], char preis[]) {
     teil *temp = (teil*)malloc(sizeof(teil));
     if(typ != NULL)
